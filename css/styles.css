@@ -41,6 +41,7 @@ li {
 
 img {
     display: block;
+    width: 100%;
 }
 
 .container {
@@ -135,6 +136,10 @@ img {
 /* 1st SECTION Flex*/
 .hero {
     background-color: var(--NAVY-BLUE, #2e2f42);
+    background-image: url(../images/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 1440px;
     padding: 191px 0 185px;
 }
 
@@ -229,6 +234,7 @@ img {
 .services-list,
 .team-list {
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -247,6 +253,11 @@ img {
     background-color: var(--WHITE);
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+    background: var(--WHITE, #FFF);
+                /* x-offset y-offset blur spread color */
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-tag {
@@ -300,7 +311,7 @@ img {
 
 /* PORTFOLIO BUTTON */
 
-.buttons-btn {
+.cards-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -316,11 +327,14 @@ img {
     border-radius: 4px;
 }   
 
-.buttons-btn:hover,
-.buttons-btn:focus {
+.cards-btn:hover,
+.cards-btn:focus {
     color: var(--WHITE);
     background-color: var(--OCEAN);
     border: 1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 
+                0px 2px 1px 0px rgba(0, 0, 0, 0.08), 
+                0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* PORTFOLIO */
@@ -330,7 +344,7 @@ img {
     padding-bottom: 120px;
 }
 
-.buttons-list {
+.cards-list {
     display: flex;
     justify-content: center;
     gap: 24px;
