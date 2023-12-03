@@ -144,7 +144,7 @@ img {
     background-color: var(--NAVY-BLUE, #2e2f42); 
     max-width: 1440px; 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                        url(../images/people-office-1.jpg);
+                    url(../images/people-office-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -478,6 +478,13 @@ img {
     border-radius: 4px;
 }   
 
+.cards-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .cards-btn:hover,
 .cards-btn:focus {
     color: var(--WHITE);
@@ -489,16 +496,10 @@ img {
 }
 
 /* PORTFOLIO */
+
 .portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
-}
-
-.cards-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -523,7 +524,7 @@ img {
     color: var(--SLATE, #434455);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px; /* 120% */
+    line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
 }
