@@ -317,8 +317,7 @@ img {
 }
 
 .team-icon-link:hover,
-.team-icon-link:focus,
-.team-icon-link:active {
+.team-icon-link:focus {
     background-color: var(--OCEAN, #404bbf);
 }
 
@@ -389,8 +388,11 @@ img {
 /* Footer Flex */
 .footer-container {
     display: flex;
-    align-items: center;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-logo-container {
+    margin-right: 120px;
 }
 
 .footer-icon-paragraph {
@@ -451,8 +453,7 @@ img {
 }
 
 .footer-icon-link:hover,
-.footer-icon-link:focus,
-.footer-icon-link:active {
+.footer-icon-link:focus {
     background-color: var(--GREEN);
 }
 
