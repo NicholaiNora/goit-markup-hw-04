@@ -368,7 +368,7 @@ img {
 }
 
 .customers-icon-link:hover,
-.customers-icon-link:visited {   
+.customers-icon-link:focus {   
     color: var(--OCEAN,#404bbf);
     border-color: var(--OCEAN,#404bbf);
 }
