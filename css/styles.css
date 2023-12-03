@@ -367,10 +367,12 @@ img {
     color: var(--LIGHT-SLATE, #8E8F99);
 }
 
-.customers-icon-link:hover,
-.customers-icon-link:focus,
-.customers-icon-link:active {
+.customers-icon-link:hover{
     border-color: var(--OCEAN,#404bbf);
+}
+
+.customers-icon-item:hover .customers-icon-link,
+.customers-icon-item:focus .customers-icon-link {   
     color: var(--OCEAN,#404bbf);
 }
 
@@ -454,16 +456,17 @@ img {
 
 .footer-icon-link:hover,
 .footer-icon-link:focus {
-    background-color: var(--GREEN);
+    stroke: var(--GREEN);
 }
 
 .footer-icon {
     fill: var(--CLOUD, #f4f4fd)
 }
 
-.footer-icon:focus {
-    background-color: var(--GREEN);
+.footer-icon-link:focus {
+    background: var(--GREEN);
 }
+
 
 /* PORTFOLIO BUTTON */
 
