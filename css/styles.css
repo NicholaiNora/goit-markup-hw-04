@@ -453,7 +453,7 @@ img {
 
 .footer-icon-link:hover,
 .footer-icon-link:focus {
-    background-color: var(--GREEN);
+    background-color: var(--GREEN, #31d0aa);
 }
 
 .footer-icon {
