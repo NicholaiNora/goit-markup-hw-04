@@ -461,6 +461,10 @@ img {
     fill: var(--CLOUD, #f4f4fd)
 }
 
+.footer-icon:focus {
+    background-color: var(--GREEN);
+}
+
 /* PORTFOLIO BUTTON */
 
 .cards-btn {
